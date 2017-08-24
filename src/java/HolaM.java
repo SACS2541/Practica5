@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -13,8 +7,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
+ * Servlet Hola Mundo
  *
- * @author Alumno
+ * @author Sergio Cañas
+ * @verion 1.0
+ *
  */
 @WebServlet(urlPatterns = {"/HolaM"})
 public class HolaM extends HttpServlet {
@@ -36,10 +33,10 @@ public class HolaM extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Hola Mundo</title>");            
+            out.println("<title>Hola Mundo</title>");// Asigna el titulo "Hola Mundo"
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Hola Mundo!!!!</h1>");
+            out.println("<h1>Hola Mundo!!!!</h1>");// Despliega "Hola Mundo"
             out.println("</body>");
             out.println("</html>");
         }
